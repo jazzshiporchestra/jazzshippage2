@@ -56,8 +56,35 @@
       font-size: 1rem;
       line-height: 1.4;
     }
-
-    @media (max-width: 480px) {
+    iframe {
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .link-title {
+    font-size: 1.05rem;
+  }
+  .link-desc {
+    font-size: 0.9rem;
+  }
+  .overlay {
+    padding: 1.5rem 1rem;
+  }
+}
       h1 {
         font-size: 1.6rem;
       }
